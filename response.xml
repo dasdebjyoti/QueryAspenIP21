@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-7"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <ExecuteSQLResponse
+    xmlns="http://www.aspentech.com/SQLplus.WebService/">
+      <ExecuteSQLResult>
+        <NewDataSet>
+          <Table>
+            <NAME>ATCAI</NAME>
+            <IP_DESCRIPTION>Sine Input</IP_DESCRIPTION>
+            <IP_INPUT_VALUE>9.3396207809448242</IP_INPUT_VALUE>
+            <IP_INPUT_TIME>06-SEP-2020 01:35:30.3</IP_INPUT_TIME>
+          </Table>
+        </NewDataSet>
+      </ExecuteSQLResult>
+    </ExecuteSQLResponse>
+  </soap:Body>
+</soap:Envelope>
